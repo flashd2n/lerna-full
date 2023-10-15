@@ -1,4 +1,4 @@
 module.exports.add = function (x, y) {
-    console.log("0.0.0");
+    console.log("1.0.0-next.0");
     return x + y;
 }

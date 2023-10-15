@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "release": "lerna publish",
+    "release": "lerna publish --force-publish",
+    "release-next": "lerna publish --force-publish --preid next",
     "bootstrap": "lerna bootstrap"
   },
   "workspaces": [
