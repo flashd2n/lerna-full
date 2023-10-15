@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "release": "lerna publish",
+    "bootstrap": "lerna bootstrap"
+  },
   "workspaces": [
     "packages/*"
   ],
