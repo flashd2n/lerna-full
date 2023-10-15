@@ -1,6 +1,6 @@
 {
     "name": "@flashtest/calculator2",
-    "version": "0.1.0-next.0",
+    "version": "0.1.0-next.1",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@flashtest/addition2": "^0.1.0-next.0",
-        "@flashtest/subtraction2": "^0.1.0-next.0"
+        "@flashtest/addition2": "^0.1.0-next.1",
+        "@flashtest/subtraction2": "^0.1.0-next.1"
     }
 }
