@@ -4,7 +4,7 @@
   "scripts": {
     "test": "lerna run test",
     "release": "lerna publish --force-publish",
-    "release-next": "lerna publish --force-publish --preid next --dist-tag next",
+    "release-next": "lerna publish prerelease --force-publish --preid next --dist-tag next",
     "bootstrap": "lerna bootstrap"
   },
   "workspaces": [
