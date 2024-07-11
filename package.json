@@ -6,12 +6,13 @@
     "release": "lerna publish --force-publish",
     "release-next": "lerna publish prerelease --force-publish --preid next --dist-tag next",
     "release-lts": "lerna publish --force-publish --dist-tag",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "pub": "node ./scripts/publish.js"
   },
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^8.1.2"
   }
 }

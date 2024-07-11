@@ -1,1 +1,1 @@
-npm run release-lts -- 1.3-lts
+npm run release-lts -- 3.2-lts
